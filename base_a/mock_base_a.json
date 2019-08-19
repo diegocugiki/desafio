@@ -1,0 +1,58 @@
+{
+	"05267551996": {
+		"nome": "Diego Cugiki",
+		"endereco": {
+			"logradouro": "Rua Arthur Nuss",
+			"cidade": "Blumenau",
+			"bairro": "Testo Salto",
+			"cep": "8901074"
+		},
+		"lista_dividas": {
+			"cnpj_empresa": "14542414000157",
+			"razao_social": "Empresa A",
+			"valor": "125.0"
+		}
+    },
+    "62202504001": {
+		"nome": "Antonio de Souza Fagundes",
+		"endereco": {
+			"logradouro": "Rua XV de Novembro",
+			"cidade": "Blumenau",
+			"bairro": "Centro",
+			"cep": "89010001"
+		},
+		"lista_dividas": {
+			"cnpj_empresa": "37099808000188",
+			"razao_social": "Empresa B",
+			"valor": "350.0"
+		}
+    },
+	"84969932050": {
+		"nome": "Maria Antonieta",
+		"endereco": {
+			"logradouro": "Rua Maria Nuss",
+			"cidade": "Blumenau",
+			"bairro": "Centro",
+			"cep": "89074010"
+		},
+		"lista_dividas": {
+			"cnpj_empresa": "97321311000194",
+			"razao_social": "Empresa C",
+			"valor": "200.0"
+		}
+    },
+	"22624015000": {
+		"nome": "Rafaela Xavier",
+		"endereco": {
+			"logradouro": "Rua XV de Novembro",
+			"cidade": "Blumenau",
+			"bairro": "Centro",
+			"cep": "89010001"
+		},
+		"lista_dividas": {
+			"cnpj_empresa": "21339428000133",
+			"razao_social": "Empresa AbC",
+			"valor": "189.0"
+		}
+    }
+}
