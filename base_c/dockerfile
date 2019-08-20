@@ -1,0 +1,34 @@
+FROM python:slim-stretch
+
+WORKDIR /srv
+
+# UPDATE APK CACHE AND INSTALL PACKAGES
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    apt-utils \
+    git \
+    jq \
+    tzdata \
+    gcc \
+    g++ \
+    ca-certificates \
+    wget && \
+    update-ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+# ADD
+ADD requirements.txt* ./
+
+# INSTALL FROM Pipefile.lock FILE
+RUN pip install -r requirements.txt
+
+# ADD APP
+ADD . .
+
+ENV PYTHONPATH=/srv
+
+#RUN chmod +x ./src.main.py
+
+EXPOSE 8002
+
+CMD ["uvicorn", "base_c.src.main:app", "--host", "0.0.0.0", "--port", "80002"]

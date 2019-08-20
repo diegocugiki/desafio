@@ -2,26 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83cbf7b6-0e2f-4126-a012-cc1e0c07e7e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/base_b/dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_b/mock_base_b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_b/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_b/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_b/src/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_b/src/modelo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_b/src/modelo/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_b/src/modelo/pessoa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_b/src/modelo/pessoa_dados.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_b/src/servico/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_b/src/servico/login_servico.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_b/src/servico/pessoa_servico.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_b/src/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_b/src/util/validacao_token.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_c/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_c/mock_base_c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_c/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_c/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_c/src/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_c/src/modelo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_c/src/modelo/login.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_c/src/modelo/pessoa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_c/src/modelo/pessoa_dados.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_c/src/servico/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_c/src/servico/login_servico.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_c/src/servico/pessoa_servico.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_c/src/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_c/src/util/validacao_token.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_a/mock_base_a.json" beforeDir="false" afterPath="$PROJECT_DIR$/base_a/mock_base_a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_a/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_a/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_a/src/servico/login_servico.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_a/src/servico/login_servico.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_a/src/servico/pessoa_servico.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_a/src/servico/pessoa_servico.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base_a/src/util/validacao_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_a/src/util/validacao_token.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,19 +37,20 @@
   <component name="ProjectId" id="1PWiwGxZuVfpL5mdGA6GhkzIQkd" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/base_b/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/base_c" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\desafio\base_b\src" />
-      <recent name="D:\desafio\base_b\src\servico" />
-      <recent name="D:\desafio\base_b\src\util" />
-      <recent name="D:\desafio\base_b\src\modelo" />
-      <recent name="D:\desafio\base_b" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\desafio\base_c\src" />
       <recent name="D:\desafio\base_a\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\desafio\base_c" />
+      <recent name="D:\desafio\base_c\src" />
+      <recent name="D:\desafio\base_c\modelo" />
+      <recent name="D:\desafio\base_c\servico" />
+      <recent name="D:\desafio\base_c\util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -110,7 +106,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

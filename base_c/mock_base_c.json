@@ -1,0 +1,53 @@
+{
+  "05267551996": {
+    "ultima_consulta": {
+      "data": "06/03/2019",
+      "nome_empresa": "Cetelbras Educacional",
+      "cnpj_empresa": "00065582000194"
+    },
+    "movimentacao_financeira": {
+      "tipo": "Empréstimo Consignado",
+      "valor": 3750.0,
+      "nome_empresa": "Banco Itaú"
+    },
+    "ultima_compra_cartao_credito": {
+	  "destino" : "Padaria Doce Pão"
+      "data": "19/08/2019",
+      "valor": 23.5
+    }
+  },
+  "10179300075": {
+    "ultima_consulta": {
+      "data": "20/08/2019",
+      "nome_empresa": "CIC - Blumenau",
+      "cnpj_empresa": "73231060000199"
+    },
+    "movimentacao_financeira": {
+      "tipo": "Financiamento",
+      "valor": 7000.0,
+      "nome_empresa": "Cecred"
+    },
+    "ultima_compra_cartao_credito": {
+	  "destino" : "Posto Norte"
+      "data": "01/08/2019",
+      "valor": 112.0
+    }
+  },
+  "92457748054": {
+    "ultima_consulta": {
+      "data": "20/08/2019",
+      "nome_empresa": "Lojas Americanas",
+      "cnpj_empresa": "33014556000196"
+    },
+    "movimentacao_financeira": {
+      "tipo": "Empréstimo",
+      "valor": 1000.0,
+      "nome_empresa": "Cecred"
+    },
+    "ultima_compra_cartao_credito": {
+	  "destino" : "Floricultura da Rosa"
+      "data": "17/08/2019",
+      "valor": 63.5
+    }
+  }
+}
