@@ -3,7 +3,7 @@ import jwt
 from fastapi import HTTPException
 from time import time
 
-segredo = "123-456-789"
+segredo = "987-654-321"
 
 def valida_token(token: str):
     try:

@@ -1,0 +1,73 @@
+{
+	"05267551996": {
+		"idade": 32,
+		"lista_bens": {
+			"Carro" : {
+				"nome": "Palio Wekeend",
+				"valor": "10000.0"
+			},
+			"Moto" : {
+				"nome": "Biz",
+				"valor": "3000.0"
+			},
+			"Casa" : {
+				"nome": "Casa",
+				"valor": "180000.0"
+			}
+		},
+		"endereco": {
+			"logradouro": "Rua Arthur Nuss",
+			"cidade": "Blumenau",
+			"bairro": "Testo Salto",
+			"estado" : "Santa Catarina",
+			"cep": "89074010"
+		},
+		"fonte_renda": {
+			"nome_empresa": "Benner Sistemas",
+			"cnpj_empresa": "02288055000174",
+			"valor_salario": "3200.0"
+		}
+    },
+	"55325987038": {
+		"idade": 58,
+		"lista_bens": {
+			"Carro" : {
+				"nome": "Picasso",
+				"valor": "11000.0"
+			}
+		},
+		"endereco": {
+			"logradouro": "Rua Itajaí",
+			"cidade": "Blumenau",
+			"bairro": "Vorstad",
+			"estado" : "Santa Catarina",
+			"cep": "89015203"
+		},
+		"fonte_renda": {
+			"nome_empresa": "Benner Sistemas",
+			"cnpj_empresa": "02288055000174",
+			"valor_salario": "4800.0"
+		}
+    },
+	"32726842046": {
+		"idade": 21,
+		"lista_bens": {
+			"Moto" : {
+				"nome": "Bros 150",
+				"valor": "9000.0"
+			}
+		},
+		"endereco": {
+			"logradouro": "Rua Marechal Deodoro",
+			"cidade": "Blumenau",
+			"bairro": "Vorstad",
+			"estado" : "Santa Catarina",
+			"cep": "89036300"
+		},
+		"fonte_renda": {
+			"nome_empresa": "Espaco Blumenau Moda E Gastronomia Ltda",
+			"cnpj_empresa": "09083923000129",
+			"valor_salario": "2100.0"
+		}
+    }
+}

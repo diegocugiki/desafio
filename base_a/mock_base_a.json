@@ -5,12 +5,20 @@
 			"logradouro": "Rua Arthur Nuss",
 			"cidade": "Blumenau",
 			"bairro": "Testo Salto",
+			"estado" : "Santa Catarina",
 			"cep": "8901074"
 		},
 		"lista_dividas": {
-			"cnpj_empresa": "14542414000157",
-			"razao_social": "Empresa A",
-			"valor": "125.0"
+			"Divida A": {
+				"cnpj_empresa": "14542414000157",
+				"razao_social": "Empresa A",
+				"valor": "125.0"
+			},
+			"Divida B": {
+				"cnpj_empresa": "14542414000157",
+				"razao_social": "Empresa A",
+				"valor": "125.0"
+			}
 		}
     },
     "62202504001": {
@@ -19,6 +27,7 @@
 			"logradouro": "Rua XV de Novembro",
 			"cidade": "Blumenau",
 			"bairro": "Centro",
+			"estado" : "Santa Catarina",
 			"cep": "89010001"
 		},
 		"lista_dividas": {
@@ -33,6 +42,7 @@
 			"logradouro": "Rua Maria Nuss",
 			"cidade": "Blumenau",
 			"bairro": "Centro",
+			"estado" : "Santa Catarina",
 			"cep": "89074010"
 		},
 		"lista_dividas": {
@@ -47,6 +57,7 @@
 			"logradouro": "Rua XV de Novembro",
 			"cidade": "Blumenau",
 			"bairro": "Centro",
+			"estado" : "Santa Catarina",
 			"cep": "89010001"
 		},
 		"lista_dividas": {
