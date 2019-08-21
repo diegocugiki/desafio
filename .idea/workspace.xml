@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83cbf7b6-0e2f-4126-a012-cc1e0c07e7e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/base_c/dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_c/mock_base_c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_c/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_c/src/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_c/src/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_c/src/modelo/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_c/src/modelo/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_c/src/modelo/pessoa.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_c/src/modelo/pessoa_dados.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_c/src/servico/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_c/src/servico/login_servico.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_c/src/servico/pessoa_servico.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_c/src/util/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/base_c/src/util/validacao_token.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/desafio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/desafio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +26,7 @@
   <component name="ProjectId" id="1PWiwGxZuVfpL5mdGA6GhkzIQkd" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/base_c" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -65,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main_">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="desafio" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,6 +76,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main_" type="PythonConfigurationType" factoryName="Python">
+      <module name="desafio" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/main" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.main_" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -121,6 +135,11 @@
           <url>file://$PROJECT_DIR$/base_a/src/main.py</url>
           <line>17</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main/main.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
