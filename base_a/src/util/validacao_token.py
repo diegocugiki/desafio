@@ -5,15 +5,17 @@ from time import time
 
 segredo = "123-456-789"
 
-def valida_token(token: str):
-    try:
-        jwt.decode(token, segredo, algorithm='HS256')
-    except:
-        raise HTTPException(status_code=401, detail="Seu token esta inválido!")
+class ValidacaoToken:
 
-def obtem_toke_assinado(usuario: str):
-    payload = {
-        "uid": usuario,
-        "exp": int(time()) + 360
-    }
-    return jwt.encode(payload, segredo, algorithm='HS256')
+    def valida_token(token: str):
+        try:
+            jwt.decode(token, segredo, algorithm='HS256')
+        except:
+            raise HTTPException(status_code=401, detail="Seu token esta inválido!")
+
+    def obtem_toke_assinado(usuario: str):
+        payload = {
+            "uid": usuario,
+            "exp": int(time()) + 360
+        }
+        return jwt.encode(payload, segredo, algorithm='HS256')
