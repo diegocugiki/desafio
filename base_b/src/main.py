@@ -4,18 +4,18 @@ from fastapi import FastAPI
 from src.modelo.login import Login
 from src.modelo.pessoa import Pessoa
 from src.modelo.pessoa_dados import PessoaDados
-from src.servico.login_servico import efetuar_login
-from src.servico.pessoa_servico import obter_pessoa
+from src.servico.login_servico import LoginServico
+from src.servico.pessoa_servico import PessoaServico
 
 app = FastAPI()
 
 @app.post('/login')
 def login(login: Login):
-    return efetuar_login(login)
+    return LoginServico.efetuar_login(login)
 
 @app.post('/obter_pessoa', response_model=PessoaDados)
 def obter_pessoa_dados(pessoa: Pessoa):
-    return obter_pessoa(pessoa)
+    return PessoaServico.obter_pessoa(pessoa)
 
 if __name__ == '__main__':
     uvicorn.run(

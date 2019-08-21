@@ -1,8 +1,10 @@
 from src.modelo.login import Login
-from src.util.validacao_token import obtem_toke_assinado
+from src.util.validacao_token import ValidacaoToken
 
-def efetuar_login(login: Login):
-    if login.usuario == "mestre" and login.senha == "mestra":
-        return obtem_toke_assinado(login.usuario)
+class LoginServico():
 
-    return "Login inválido!"
+    def efetuar_login(login: Login):
+        if login.usuario == "mestre" and login.senha == "mestra":
+            return ValidacaoToken.obtem_toke_assinado(login.usuario)
+
+        return "Login inválido!"

@@ -1,12 +1,12 @@
 import json
 
 from src.modelo.pessoa import Pessoa
-from src.util.validacao_token import valida_token
+from src.util.validacao_token import ValidacaoToken
 
 class PessoaServico:
 
     def obter_pessoa(pessoa: Pessoa):
-        valida_token(pessoa.token)
+        ValidacaoToken.valida_token(pessoa.token)
 
         with open("../mock_base_a.json", "r") as base:
             list = json.load(base)
