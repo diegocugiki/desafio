@@ -10,7 +10,7 @@ from src.servico.pessoa_servico import PessoaServico
 app = FastAPI()
 
 @app.post('/login')
-def login(login: Login):
+async def login(login: Login):
     return LoginServico.efetuar_login(login)
 
 @app.post('/obter_pessoa', response_model=PessoaDados)
