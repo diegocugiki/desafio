@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83cbf7b6-0e2f-4126-a012-cc1e0c07e7e4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/desafio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/desafio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.py" afterDir="false" />
     </list>
@@ -24,22 +23,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1PWiwGxZuVfpL5mdGA6GhkzIQkd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\desafio\base_c\src" />
-      <recent name="D:\desafio\base_a\src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\desafio\main" />
       <recent name="D:\desafio\base_c" />
       <recent name="D:\desafio\base_c\src" />
       <recent name="D:\desafio\base_c\modelo" />
       <recent name="D:\desafio\base_c\servico" />
-      <recent name="D:\desafio\base_c\util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\desafio\base_c\src" />
+      <recent name="D:\desafio\base_a\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -135,11 +135,6 @@
           <url>file://$PROJECT_DIR$/base_a/src/main.py</url>
           <line>17</line>
           <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main/main.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
