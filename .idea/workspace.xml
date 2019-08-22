@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83cbf7b6-0e2f-4126-a012-cc1e0c07e7e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,20 +26,20 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/base_a" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\desafio\base_c\src" />
+      <recent name="D:\desafio\base_a\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\desafio\main" />
       <recent name="D:\desafio\base_c" />
       <recent name="D:\desafio\base_c\src" />
       <recent name="D:\desafio\base_c\modelo" />
       <recent name="D:\desafio\base_c\servico" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\desafio\base_c\src" />
-      <recent name="D:\desafio\base_a\src" />
     </key>
   </component>
   <component name="RunDashboard">
