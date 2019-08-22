@@ -45,3 +45,56 @@ header ={
 }
 Body ={}
 ```
+
+
+## Base B
+### Login
+```json
+url = http://localhost:8001/login
+method = POST
+header ={
+  "Content-Type": "application/json"
+}
+body ={
+  "usuario": "mestre",
+  "senha": "mestra"
+}
+```
+
+### Obter Consumidor
+
+```json
+url = http://localhost:8001/obter_pessoa
+method = POST
+header ={
+  "cpf": "05267551996",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiJtZXN0cmUiLCJleHAiOjE1NjY1MDU4OTF9.-yinWiMg2WNT5wcJAwzadz9rqqehFdJNyRhbDMeMC0U"
+}
+Body ={}
+```
+
+## Base C
+### Login
+```json
+url = http://localhost:8002/login
+method = POST
+header ={
+  "Content-Type": "application/json"
+}
+body ={
+  "usuario": "mestre",
+  "senha": "mestra"
+}
+```
+
+### Obter Consumidor
+
+```json
+url = http://localhost:8002/obter_pessoa
+method = POST
+header ={
+  "cpf": "05267551996",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiJtZXN0cmUiLCJleHAiOjE1NjY1MDU5Nzh9.GYwXeXYuWvycAdm7OnI0Y1v7O8JdivHTes6dfvFy4-0"
+}
+Body ={}
+```
