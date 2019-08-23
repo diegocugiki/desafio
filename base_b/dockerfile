@@ -29,6 +29,6 @@ ENV PYTHONPATH=/srv
 
 #RUN chmod +x ./src.main.py
 
-EXPOSE 8001
+EXPOSE 9091
 
-CMD ["uvicorn", "base_b.src.main:app", "--host", "0.0.0.0", "--port", "80001"]
+CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "9091"]
