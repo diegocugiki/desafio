@@ -21,7 +21,7 @@ if __name__ == '__main__':
     uvicorn.run(
         app,
         host='localhost',
-        port=9090,
+        port=8000,
         debug=True,
         log_level='info',
         access_log=True,

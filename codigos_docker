@@ -1,0 +1,9 @@
+https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/
+
+
+docker system prune 										= remove objetos não utilizados
+docker stop nome_container									= para o container
+docker container ls -a										= lista todos os containers
+docker image ls -a											= lista todas as imagens
+docker container rm 34e9465cae95 4c19db426e69 a15382e4d49e	= remove varios containers
+docker image rm 34e9465cae95 4c19db426e69 a15382e4d49e		= remove varios containers
