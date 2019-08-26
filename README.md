@@ -15,7 +15,8 @@ Todas as aplicações foram desenvolvidas com a linguagem de programação Pytho
 Para disponibilização dos dados foi utilizado o Framework FastApi. 
 O Framework JWT foi utilizado para realizar a autenticação entre a aplicação principal e as bases A, B e C por meio de um Token assinado que autentica as requisições.
 Para criar as requisições entre as aplicaçãoes foi utilizado a ferramenta Postman, que tem como objetivo testar serviços de WEB APIs por meio do envio de requisições HTTP, sendo possível avaliar as respostas das requisições, no caso as informações dos consumidores.
-Para facilidade da criação das APIs foi utilizado a plataforma Docker, com objetivo de disponibilizar com maior rapidez as aplicações. Todas as aplicações rodame em containers Docker.
+
+Para facilidade da criação das APIs foi utilizado a plataforma Docker, com objetivo de disponibilizar com maior rapidez as aplicações. Todas as aplicações rodam em containers Docker.
 
 Para rodar todas as aplicações está sendo utilizado o arquivo docker-compose.yml. Nele está contido as configurações de porta de cada aplicação. 
 
@@ -108,4 +109,88 @@ header ={
   "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiJtZXN0cmUiLCJleHAiOjE1NjY1MDU5Nzh9.GYwXeXYuWvycAdm7OnI0Y1v7O8JdivHTes6dfvFy4-0"
 }
 Body ={}
+```
+
+## Aplicação principal
+### Consulta
+```json
+url = http://localhost:8003/obter_dados_pessoa
+method = POST
+header ={
+  "cpf": "05267551996"
+}
+Body ={}
+```
+### Retorno
+```json
+{
+    dados pessoais: {
+        nome
+        endereco: {
+            logradouro: 
+            cidade:
+            bairro: 
+            estado:
+            cep: 
+        },
+        lista_dividas: {
+            Divida A: {
+                cnpj_empresa:
+                razao_social:
+                valor:
+            },
+            Divida B: {
+                cnpj_empresa:
+                razao_social:
+                valor:
+            }
+        }
+    },
+    score de credito: {
+        idade:
+        lista_bens: {
+            descricao_do_bem: {
+                nome:
+                valor:
+            },
+            descricao_do_bem_a: {
+                nome:
+                valor:
+            },
+            descricao_do_bem_b: {
+                nome:
+                valor:
+            }
+        },
+        endereco: {
+            logradouro:
+            cidade:
+            bairro:
+            estado:
+            cep:
+        },
+        fonte_renda: {
+            nome_empresa:
+            cnpj_empresa:
+            valor_salario:
+        }
+    },
+    movimentacoes: {
+        ultima_consulta: {
+            data:
+            nome_empresa:
+            cnpj_empresa:
+        },
+        movimentacao_financeira: {
+            tipo:
+            valor:
+            nome_empresa:
+        },
+        ultima_compra_cartao_credito: {
+            destino:
+            data:
+            valor:
+        }
+    }
+}
 ```
