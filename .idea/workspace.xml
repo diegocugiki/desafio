@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83cbf7b6-0e2f-4126-a012-cc1e0c07e7e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main/dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base_a/src/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_a/mock_base_a.json" beforeDir="false" afterPath="$PROJECT_DIR$/base_a/mock_base_a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_a/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/base_a/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_a/src/servico/pessoa_servico.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_a/src/servico/pessoa_servico.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_b/mock_base_b.json" beforeDir="false" afterPath="$PROJECT_DIR$/base_b/mock_base_b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_b/src/servico/pessoa_servico.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_b/src/servico/pessoa_servico.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_c/mock_base_c.json" beforeDir="false" afterPath="$PROJECT_DIR$/base_c/mock_base_c.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base_c/src/servico/pessoa_servico.py" beforeDir="false" afterPath="$PROJECT_DIR$/base_c/src/servico/pessoa_servico.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codigos_docker" beforeDir="false" afterPath="$PROJECT_DIR$/codigos_docker" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/main/dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/main/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/servico/base_a/base_a_login_servico.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/servico/base_a/base_a_login_servico.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/servico/base_a/base_a_pessoa_servico.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/servico/base_a/base_a_pessoa_servico.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/servico/base_b/base_b_login_servico.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/servico/base_b/base_b_login_servico.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/servico/base_b/base_b_pessoa_servico.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/servico/base_b/base_b_pessoa_servico.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/servico/base_c/base_c_login_servico.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/servico/base_c/base_c_login_servico.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/servico/base_c/base_c_pessoa_servico.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/servico/base_c/base_c_pessoa_servico.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/servico/base_login_servico.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/servico/base_login_servico.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/servico/base_pessoa_servico.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/servico/base_pessoa_servico.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +46,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/base_a" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">

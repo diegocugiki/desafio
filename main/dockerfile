@@ -19,7 +19,7 @@ RUN apt-get update && \
 # ADD
 ADD requirements.txt* ./
 
-# INSTALL FROM Pipefile.lock FILE
+# INSTALL FROM requirements FILE
 RUN pip install -r requirements.txt
 
 # ADD APP
@@ -27,7 +27,7 @@ ADD . .
 
 ENV PYTHONPATH=/srv
 
-#RUN chmod +x ./src.main.py
+RUN chmod +x ./
 
 EXPOSE 8003
 

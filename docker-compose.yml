@@ -1,0 +1,37 @@
+version: "3.6"
+services:
+  base_a:
+    hostname: basea
+    build: ./base_a
+    ports:
+      - "8000:8000"
+    networks:
+      - production-network
+  base_b:
+    hostname: baseb
+    build: ./base_b
+    ports:
+      - "8001:8001"
+    networks:
+      - production-network
+  base_c:
+    hostname: basec
+    build: ./base_c
+    ports:
+      - "8002:8002"
+    networks:
+      - production-network
+  main:
+    build: ./main
+    ports:
+      - "8003:8003"
+    networks:
+      - production-network
+    links:
+      - "base_a:basea"
+      - "base_b:baseb"
+      - "base_c:basec"
+
+networks:
+  production-network:
+    driver: bridge

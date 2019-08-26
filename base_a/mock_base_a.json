@@ -50,20 +50,5 @@
 			"razao_social": "Empresa C",
 			"valor": "200.0"
 		}
-    },
-	"22624015000": {
-		"nome": "Rafaela Xavier",
-		"endereco": {
-			"logradouro": "Rua XV de Novembro",
-			"cidade": "Blumenau",
-			"bairro": "Centro",
-			"estado" : "Santa Catarina",
-			"cep": "89010001"
-		},
-		"lista_dividas": {
-			"cnpj_empresa": "21339428000133",
-			"razao_social": "Empresa AbC",
-			"valor": "189.0"
-		}
     }
 }

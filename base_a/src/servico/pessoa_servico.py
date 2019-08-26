@@ -8,7 +8,7 @@ class PessoaServico:
     def obter_pessoa(pessoa: Pessoa):
         ValidacaoToken.valida_token(pessoa.token)
 
-        with open("../mock_base_a.json", "r") as base:
+        with open("./mock_base_a.json", "r") as base:
             list = json.load(base)
             return list[pessoa.cpf]
 

@@ -1,4 +1,4 @@
-https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/
+﻿https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/
 
 
 docker system prune 										= remove objetos não utilizados

@@ -6,3 +6,5 @@ PyJWT==1.7.1
 starlette==0.12.7
 uvicorn==0.8.6
 websockets==7.0
+python-decouple
+requests
