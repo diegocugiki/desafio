@@ -15,10 +15,21 @@ Todas as aplicações foram desenvolvidas com a linguagem de programação Pytho
 Para disponibilização dos dados foi utilizado o Framework FastApi. 
 O Framework JWT foi utilizado para realizar a autenticação entre a aplicação principal e as bases A, B e C por meio de um Token assinado que autentica as requisições.
 Para criar as requisições entre as aplicaçãoes foi utilizado a ferramenta Postman, que tem como objetivo testar serviços de WEB APIs por meio do envio de requisições HTTP, sendo possível avaliar as respostas das requisições, no caso as informações dos consumidores.
+Para facilidade da criação das APIs foi utilizado a plataforma Docker, com objetivo de disponibilizar com maior rapidez as aplicações. Todas as aplicações rodame em containers Docker.
+
+Para rodar todas as aplicações está sendo utilizado o arquivo docker-compose.yml. Nele está contido as configurações de porta de cada aplicação. 
 
 # Execução da solução
 
-b
+Para executar as aplicações com Docker, basta subir todo o ambiente utilizado o Compose.
+
+```
+docker-compose build
+```
+
+```
+docker-compose up
+```
 
 ## Base A
 ### Login
