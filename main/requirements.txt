@@ -2,7 +2,7 @@ Click==7.0
 fastapi==0.35.0
 h11==0.8.1
 pydantic==0.30
-PyJWT==1.7.1
+PyJWT==2.4.0
 starlette==0.12.7
 uvicorn==0.8.6
 websockets==7.0
